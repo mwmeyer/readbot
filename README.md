@@ -14,7 +14,7 @@ Its on pypi!
 
 ```shell
 $ pip install tesseract
-```s
+```
 
 **Tesseract**
 
