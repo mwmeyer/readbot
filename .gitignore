@@ -1,4 +1,8 @@
 *.py[cod]
+dist
+setup.py
+build
+MANIFEST
 
 # C extensions
 *.so

@@ -94,14 +94,3 @@ class OcrEngine(object):
 
         return ocr_result
 
-    def gocr(input_file):
-        pass
-
-    def abbyy(input_file):
-        pass
-
-
-#read_bot = ReadBot()
-
-#print read_bot.interpret('foo.tif')
-
