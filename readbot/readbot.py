@@ -60,8 +60,8 @@ class ReadBot(object):
 
         if self.pdf_converter == 'ghostscript':
             try:
-                subprocess.call(['gs', '-sDEVICE=pngalpha', '-sOutputFile=' +
-                                pdf_conversion.name, '-r144', pdf])
+                subprocess.call(['gs', '-sDEVICE=pngalpha', '-dNOPAUSE', '-dBATCH', '-sOutputFile=' +
+                                pdf_conversion.name, '-r300', pdf])
             except OSError:
                 raise RuntimeError("Failed to run ghostscript command for pdf conversion. Is it installed? http://www.ghostscript.com/")
 
